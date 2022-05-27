@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="entrypages.css">
+    <title>Remove User | Library Management System</title>
+</head>
+<body id="bg">
+    
+    <div id="head"><a href="http://localhost:8080/LMS/Welcome">
+            <h1>Library Management System</h1></a></div>
+   <div id="head2"><p>Remove a Book</p></div>
+       <div id="formcontainer">
+        <form action="RemoveBook" method="post">
+            <table>
+                <tr>
+                    <td>
+                      <label class="text" for="bname">Book Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" required name="bname" placeholder="Book name.." class="input">
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="2">
+<!--                        <button id="submit" type="submit">Add User</button>-->
+                        <input type="submit" id="rsubmit" name="submitbtn" value="Remove Book">
+                    </td>
+                </tr>
+            </table>
+        </form>
+       </div>
+</body>
+</html>

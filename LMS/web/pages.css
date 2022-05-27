@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#bg {
+    position: relative;
+    background: #f0f0f0;
+}
+
+#head{
+    font-style: normal;
+    padding: 2%;
+    margin-bottom: 3%;
+/*    width: 28.8%;*/
+    color: #ffffff;
+    background: #2d2d2d;
+}
+
+#hbutton{
+    width: 30%;
+}
+
+h1{
+    color: #ffffff;
+}
+#head2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size:28px;
+    margin: 2%;
+    margin-top: -2%;
+    color: #2D2D2D;
+ 
+}
+
+a {
+    text-decoration: none;
+}
+
+table, tr, td{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin: 10%;
+    margin-top: -1%;
+    border-radius: 12px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: black;
+    padding: 2px;
+}
+
+th{
+    background-color: #E35200;
+    color: #FFFFFF;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+
+.bid, .id, .period, .idate{
+    width: 8%;
+    text-align: right;
+}
+
+.bname{
+    width: 60%;
+}
+
+.genre{
+    width: 20%;
+}
+
+.bprice{
+    width: 12%;
+    text-align: right;
+}
